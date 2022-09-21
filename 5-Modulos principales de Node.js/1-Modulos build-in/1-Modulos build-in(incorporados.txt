@@ -1,0 +1,11 @@
+    Modulo built-in(incorporados)
+
+Son modulos que ya vienen instalados con node, 
+Se puede trabajar directamente sin instalarlos
+
+Ej de algunos modulos built-in:
+a)http
+b)https
+c)fs (file system)
+d)os (operating system)
+e)path

@@ -1,0 +1,19 @@
+    Modulo Timers
+
+Permite simular operaciones asincronas
+
+Contiene funciones que ejecutan codigo luego de un cierto
+periodo de tiempo
+
+Funciones utiles:
+1-setTimeout() > ejecuta el codigo luego de un numero especifico de milisegundos
+Sintaxis: setTimeout(funcion, retraso, argumentos)
+
+2-setImmediate() > Se usa para ejecutar codigo asincrono en la proxima
+iteracion del ciclo de eventos de node. La funcion se ejecuta despues
+del codigo sincrono
+Sintaxis: setImmediate(funcion, argumento1, argumento2)
+
+3-setInterval() > Se usa para ejecutar codigo un numero infinito de veces
+con un retraso especifico de milisegundos
+Sintaxis: setInterval(funcion, intervalo, argumentos)

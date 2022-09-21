@@ -1,0 +1,20 @@
+        npm
+
+Concepto: npm Es el ARCHIVO, COMPENDIO de software mas grande del mundo, que CONTIENE PAQUETES que puedes instalar y usar con Node.js.
+Tambien es una herramienta para la linea de comandos
+
+PAQUETES: Es un archivo o conjunto de archivos almacenados
+dentro de un mismo directorio que esta descripto por un archivo 
+package.json
+
+MODULO: Es cualquier archivo o directorio que estan ubicados en el 
+directorio de node_modules que puede ser importado con require()
+
+node_modules: Es una carpeta que se crea cuando trabajamos con npm
+y es donde encontramos todos los modulos o paquetes agrupados para 
+poder usarlos en nuestro proyecto
+    De esos modulos solo los modulos que tienen un archivo 
+PACKAGE.JSON son paqutes
+
+DEPENDENCIA: Es un paquete que otro paquete necesita para funcionar
+correctamente(un paquete que depende de otro paquete para funcionar)

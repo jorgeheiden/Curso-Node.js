@@ -1,0 +1,4 @@
+Modulo process:
+Provee informacion sobre el proceso de node que
+se esta ejecutando. Puede tener tambien cierto control
+sobre el proceso

@@ -1,0 +1,16 @@
+    Modulo fs
+*Concepto:
+fs = File System. 
+Modulo que contiene funcionalidad muy util para trabajar con
+el sistema de archivos.
+Se puede llamar a sus metodos para trabajar con los archivos
+
+*Operaciones que se pueden realizar:
+Leer, Modificar, Copiar, Eliminar, Cambiar nombre (de un Archivo)
+
+*Todos los metodos de este modulo son ASINCRONOS por defecto,
+no van a bloquear la ejecucion del programa. 
+Pero se pueden elegir versiones SINCRONAS de estos metodos agregandos 
+Sync a sus nombre EJ:
+    -Si tenemos el metodo: fs.rename()
+    -Para convertirlo a un metodo SINCRONO: fs.renameSync()

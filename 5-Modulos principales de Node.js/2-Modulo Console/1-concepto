@@ -1,0 +1,12 @@
+    Modulo console
+Modulo built-in que Implementa funcionalidad similar
+a la consola de un navegador web(simula la consola del navegador)
+Permite ejecutar el codigo de js y ver el resultado en la
+terminal
+
+Metodos utiles de ese modulo:
+-console.log()
+-console.warn()
+-console.error()
+-console.assert()
+-console.table()
