@@ -1,0 +1,33 @@
+    Eventos
+
+    Que es un Evento?
+
+Evento Asincrono: Si una aplicacion se esta ejecutando y 
+ocurre un Evento asincrono, ese evento se ejecuta en paralelo, 
+a la ejecucion de la aplicacion, sin bloquearla. Continua la ejecucion de ambos procesos
+    Node.js esta basado en eventos asincronos
+
+Evento Sincrono: Un evento sincrono bloquea la ejecucion de la aplicacion, hasta que se complete el proceso desencadenado por ese
+evento, una vez completado continua la ejecucion de la aplicacion
+
+EVENTO: Es una accion que se realiza en la aplicacion y que desencadena
+un proceso
+
+    Emitters (EMISORES):
+
+Objetos que emiten eventos nombrados y llaman a funciones especificas
+cuando ocurren. 
+    Los emisores son instancias de la CLASE EventEmitter (Una CLASE
+es como el molde de un OBJETO)
+    Estos objetos tienen un metodo on() para asociar una funcion
+al evento. La funcion se ejecuta cuando ocurre el evento
+
+    Event Handler o eventListener:
+
+Son funciones que manejan eventos
+
+    Modulo events:
+
+Modulo que permite Definir, Emitir, Escuchar eventos para saber cuando
+ocurren.
+

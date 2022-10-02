@@ -1,0 +1,9 @@
+    Package-lock.json
+
+Se genera automaticamente cuando npm modifica el arbol de node_module
+o package.json. Permite mantener un registro del arbol de dependencias
+que necesita nuestro paquete.
+    Describe el arbol generado para que futuras instalaciones puedan
+generar exactamente el mismo arbol. De esta forma otros desarrolladores
+pueden instalar exactamente las mismas dependencias
+    Es una version mas detallada de package.json

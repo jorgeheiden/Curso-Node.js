@@ -1,0 +1,39 @@
+
+  Como Instalar paquetes?
+
+- Abrir la carpeta donde se quiere crear el paquete en la terminal
+- Crear un paquete con lo valores por defecto: npm init --yes 
+
+Opcion 1:
+-Ejemplo de como intalar el paquete de Express: (Este paquete se instala dentro del paquete creado anteriormente)
+1)En el google buscar: npm express => aqui se encuentra el comando de instalacion
+2)Ejecutar el comando de instalacion: npm install express
+3)Esto crea la carpeta node_modules que contiene todos los paquetes para que funcione express y el archivo package-lock.json
+
+Opcion 2:
+1)"devDependencies" => Hay dependencias que se usan solamente mientras estamos desarrollando
+la aplicacion, pero no se necesitan cuando la aplicacion esta en vivo. por lo que se pueden 
+guardar esas dependencias o paquetes en una categoria especial llamada "deDependencies"(en el package.json)
+2) Ej: en la terminal => npm install express --save-dev
+
+
+-Como verificar si se instalo el paquete de Express:
+
+1) En el archivo package.json => en la seccion "dependencies" aparecen los paquetes instalados, en este caso Express
+
+  Como desintalar un paquete?
+
+1) En el terminal: npm uninstall express
+
+  Como Instalar una version especifica de un paquete?
+
+1)En la terminal: npm install express@4.15.1  //luego de la @ se coloca la version que se quiere Instalar
+
+-Como instalar DEPENDENCIAS?
+
+1) La carpeta node_modules con todos los paquetes no se incluye en 
+los repositorios de github. (Por lo que al clonar el repositorio se deben descargar la dependencias)
+2) Pero el archivo package.json permite intalar todos los paquetes, dependencias 
+que se usaron en el proyecto (las dependencias usadas figuran en este archivo)
+3) Se instalan con npm install => Este comando instala todas la dependencias que
+figuran en package.json

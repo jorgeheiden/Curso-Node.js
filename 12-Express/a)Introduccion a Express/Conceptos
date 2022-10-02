@@ -1,0 +1,12 @@
+        Express
+
+Es el framework web mas popular de Node.js
+https://www.npmjs.com/package/express
+
+CRUD: Representa la operaciones basicas que se puedn realizar con
+la informacion que tenemos almacenada en una base de datos
+
+API: Appication programming interface. Permite que dos o mas 
+programas se comunique entre si. 
+
+REST: Es un estilo de arquitectura de software

@@ -1,0 +1,25 @@
+    Promesas
+
+    Que es una promesa?:
+
+    Es un OBJETO que representa el eventual resultado (o error) de
+una operacion ASINCRONA
+
+    Estados posibles de una promesa:
+
+1-Pendiente
+2-cumplida(fulfilled)
+3-Rechazada(rejected)
+
+    Funcion callback:
+
+    Una promesa es un OBJETO y se asocia a una callback function
+que se ejecuta cuando se completa el proceso asincrono para 
+procesar el resultado
+    Callback function es una funcion que se pasa a otra funcion como 
+argumento y luego se ejecuta dentro de la funcion externa
+
+    Metodo then()
+
+Las promesas tienen un metodo then() con el cual podemos decidir
+que ocurre cuando se completa la promesa (exito o error)

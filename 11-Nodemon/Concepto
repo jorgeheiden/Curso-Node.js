@@ -1,0 +1,9 @@
+Es una herramienta que reinicia la aplicacion de Node.js cuando
+detecta algun cambio en los archivos. de esa manera no hace falta
+reiniciar el servidor manualmente cada vez que se haga un cambio
+
+web: https://www.npmjs.com/package/nodemon
+
+Instalacion: npm install -g nodemon
+
+Ejecucion(En la terminal): nodemon nombre-aplicacion
